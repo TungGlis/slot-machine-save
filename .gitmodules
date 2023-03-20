@@ -1,0 +1,4 @@
+[submodule "src/vbWebEngine"]
+	path = src/vbWebEngine
+	url = https://github.com/GlisGames/vbWebEngine.git
+	branch = v7_wip

@@ -1,0 +1,14 @@
+{
+    "name": "English",
+    "defaultFont": "Inter",
+    "dict": {
+    "up": "Up",
+    "down": "Down",
+    "left": "Left",
+    "right": "Right",
+    "spin": "Spin"
+    },
+    "styles": {
+        
+    }
+}

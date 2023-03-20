@@ -1,0 +1,41 @@
+{
+  "img": {
+    "g1": "img/A.png",
+    "g2": "img/10.png",
+    "g3": "img/Coin.png",
+    "g4": "img/Imperator.png",
+    "g5": "img/J.png",
+    "g6": "img/K.png",
+    "g7": "img/Q.png",
+    "g8": "img/Scatter.png",
+    "g9": "img/Sword.png",
+    "g10": "img/Wild.png",
+    "baqua": "img/baqua.png",
+    "fileSize": 100
+  },
+  "img_atlas": {
+    "img-0": "img/img-0.json",
+    "fileSize": 18762
+  },
+  "img_atlas_multipacks": {},
+  "spine_json": {
+    "fileSize": 0
+  },
+  "style": {
+    "landscape": "json/landscape.json",
+    "portrait": "json/portrait.json",
+    "fileSize": 182
+  },
+  "lang": {
+    "en": "json/en/game.json",
+    "it": "json/it/game.json",
+    "fileSize": 250
+  },
+  "sound": {
+    "fileSize": 0
+  },
+  "custom": {
+    "fileSize": 0
+  },
+  "fileSize": 19194
+}

@@ -1,0 +1,27 @@
+{
+  "include": [
+    "./src/**/**.ts",
+    "./src/**/*.js",
+    "./src/**/*.vue"
+  ],
+  "exclude": [
+    "./src/_tsc/*",
+    "./src/declarations/*"
+  ],
+  
+  "extends": "./src/vbWebEngine/dev-tools/tsconfig-base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./src/_tsc",
+    "rootDir": ".",
+    "paths": {
+      "@vb/*": ["./src/vbWebEngine/*"],
+      "@g/*": ["./src/game/*"],
+      "@a/*": ["./assets/*"]
+    },
+    // Don't include anything at node_modules/@types
+    "types": ["vite/client", "lodash", "node"],
+    "declaration": true
+  }
+  // https://stackoverflow.com/questions/64626846/typescript-tsc-not-picking-up-tsconfig-json-inside-a-subdirectory
+}
