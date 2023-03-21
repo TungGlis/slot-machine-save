@@ -24,7 +24,8 @@ export class Example extends vbContainer {
         this.scoreDisplay.width = 200
         this.randomBtn.height = 200
         this.randomBtn.width = 200
-        this.randomBtn.position.set(this.screenX/2 + 100, this.screenY-this.randomBtn.height)
+        // this.randomBtn.position.set(this.screenX/2 + 100, this.screenY-this.randomBtn.height)
+        this.randomBtn.position.set(520, 600)
         this.scoreDisplay.position.set(0, this.screenY-this.randomBtn.height)
         this.randomBtn.setOnClick(()=>{
             globalThis.pgame.matrix.RandomPress()
@@ -35,14 +36,14 @@ export class Example extends vbContainer {
             // globalThis.pgame.matrix.ApplyImg(1, 2, 5)
             // globalThis.pgame.matrix.ApplyImg(1, 3, 5)
             // globalThis.pgame.matrix.ApplyImg(1, 4, 5)
-            // console.log(globalThis.pgame.matrix.matrix);
+            console.log(globalThis.pgame.matrix.matrix);
             // // test
 
 
             globalThis.pgame.matrix.CheckWin()
         })
         this.addObj(this.randomBtn)
-            .addObj(this.scoreDisplay)
+            // .addObj(this.scoreDisplay)
         console.log(globalThis.pgame.matrix.screenMatrix);
         
     }
